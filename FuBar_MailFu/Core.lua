@@ -218,4 +218,6 @@ function FuBar_Mail:OnTooltipUpdate()
 	end
 end
 
-
+function FuBar_Mail:OnClick()
+	MailTo_inbox('');	
+end
